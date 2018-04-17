@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Ux.Forms.Views;
 
 namespace Ux.Forms
 {
-	public partial class App : Application
-	{
+	public partial class App {
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new Ux.Forms.MainPage();
+			MainPage = new MainView();
 		}
 
 		protected override void OnStart ()

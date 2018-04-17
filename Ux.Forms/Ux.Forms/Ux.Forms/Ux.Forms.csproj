@@ -16,10 +16,15 @@
 
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="ViewModels\YouTube\" />
+    <Folder Include="Views\YouTube\Controls\" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Views\MainView.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\YouTube\YouTubeMainView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
